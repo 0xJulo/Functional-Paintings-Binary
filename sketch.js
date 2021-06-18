@@ -3,7 +3,7 @@
 // instagram.com/_justinlogue/
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1080, 1080);
 }
 
 function draw() {
@@ -16,8 +16,8 @@ function draw() {
 
 function randomNumber() {
   return vertex(
-    Math.floor(Math.random() * windowWidth + 1),
-    Math.floor(Math.random() * windowHeight + 1)
+    Math.floor(Math.random() * 1080 + 1),
+    Math.floor(Math.random() * 1080 + 1)
   );
 }
 
